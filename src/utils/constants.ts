@@ -1,0 +1,1 @@
+export const API_KEY = import.meta.env.VITE_WEATHER_API_KEY || "c1a5cfccd0674e1396542419252801";
