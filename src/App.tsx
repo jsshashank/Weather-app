@@ -9,7 +9,8 @@ import { useWeatherData } from './hooks/useWeatherData';
 import { WeatherData } from './types/weather';
 
 function App() {
-  const [searchQuery, setSearchQuery] = useState('New Delhi');
+  
+  const [searchQuery, setSearchQuery] = useState('Tokyo');
   const [currentUnit, setCurrentUnit] = useState<'c' | 'f'>('c');
   const { weatherData, loading, error, fetchWeatherData } = useWeatherData();
 
@@ -84,7 +85,12 @@ function App() {
           <TabContainer weatherData={weatherData} currentUnit={currentUnit} />
         </>
       )}
+       <p align="center">
+  Made by shashank
+</p>
     </div>
+    
+   
   );
 }
 
