@@ -25,7 +25,7 @@ const Header: React.FC<HeaderProps> = ({
     <header className="flex justify-between items-center py-4 mb-6 flex-wrap gap-4">
       {/* Logo */}
       <div className="logo flex items-center gap-2 text-2xl font-md text-primary">
-<img width="45" height="45" src="src\assets\logo.png" alt="logo"/>        <span>Weather Dashboard</span>
+<img width="45" height="45" src="public\logo.png" alt="logo"/>        <span>Weather Dashboard</span>
       </div>
 
       {/* Search */}
